@@ -1,0 +1,164 @@
+
+body {
+    background-image: url("../images/purple.png");
+}
+
+
+.header {
+    width: 45%;
+    margin-left: 27%;
+    text-align: center;
+    background-color: #8f448fa2;
+    border: 8px solid;
+    border-top-color: #b95cb9;
+    border-right-color: #1a051a;
+    border-bottom-color: #b95cb9;
+    border-left-color: #1a051a;
+}
+
+.instructions {
+    width: 60%;
+    margin: 4% 0 0 20%;
+    padding-left: 40px;
+    padding-right: 10px;
+    background-color: #8f448fa2;
+    border: 2px solid #1a051a;
+}
+
+.random-number {
+    width: 15%;
+    text-align: center;
+    background-color: #cc7ccc;
+    border: 8px solid;
+    border-top-color: #b95cb9;
+    border-right-color: #1a051a;
+    border-bottom-color: #b95cb9;
+    border-left-color: #1a051a;
+    margin: 4% 0 0 43%;
+    font-size: 4em;
+}
+
+.crystal-array {
+    text-align: center;
+    background-color: #8f448fa2;
+    border: 2px solid #1a051a;
+    width: 50%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 3% 0 0 25%;
+}
+
+.jewel {
+    height: 80px;
+    width: 80px;
+    border: 15px solid;
+    margin: 0 2% 0 3%;
+}
+
+.amethyst {
+    border-top-color: #18045f;
+    border-right-color: #18045f;
+    border-bottom-color: #230d74;
+    border-left-color: #230d74;
+    background-color: #2b1772;
+}
+
+.emld {
+    border-top-color: #66dc00;
+    border-right-color: #66dc00;
+    border-bottom-color: #006600;
+    border-left-color: #006600;
+    background-color: #239900;
+}
+
+.ruby {
+    border-top-color: #ff0000;
+    border-right-color: #ff0000;
+    border-bottom-color: firebrick;
+    border-left-color: firebrick;
+    background-color: #cc0000;
+}
+
+.sapphire {
+    border-top-color: #faff00;
+    border-right-color: #faff00;
+    border-bottom-color: #ebcc00;
+    border-left-color: #ebcc00;
+    background-color: #facc00;
+}
+
+.total-score {
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: #b95cb9;
+    border: 8px solid;
+    border-top-color: #cc7ccc;
+    border-right-color: #1a051a;
+    border-bottom-color: #cc7ccc;
+    border-left-color: #1a051a;
+    font-size: 3em;
+    width: 26%;
+    margin: 2% 0 0 22%;
+    padding-bottom: 8px;
+    padding
+}
+
+.wins-looses {
+    float: right;
+    position: relative;
+    text-align: center;
+    width: 26%;
+    background-color: #b95cb9;
+    border: 8px solid;
+    border-top-color: #cc7ccc;
+    border-right-color: #1a051a;
+    border-bottom-color: #cc7ccc;
+    border-left-color: #1a051a;
+    margin-top: 2%;
+    margin-right: 20%;
+    font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-left: 20px;
+    }
+
+    .random-number {
+        margin-top: 3%;
+    }
+
+    .jewel {
+       margin-right: -1%;
+    }
+
+    .jewel:nth-child(4) {
+        margin-right: 8px;
+    }
+
+    
+
+}
+
+
+@media (max-width: 640px) {
+
+    .crystal-array {
+       width: auto;  
+    }
+    
+    .total-score {
+        width:auto;
+        margin-left: auto;
+    }
+   .wins-looses {
+       width: 280px;
+       margin-left: auto;
+   }
+    
+
+}
+
+
+
